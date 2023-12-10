@@ -1,0 +1,1 @@
+import { DOMProps } from './src'

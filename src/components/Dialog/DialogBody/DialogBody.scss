@@ -1,8 +1,0 @@
-@use '../../variables';
-
-$block: '.#{variables.$ns}dialog-body';
-
-#{$block} {
-    padding: var(--yc-dialog-body-padding);
-    flex: 1 1 100%;
-}

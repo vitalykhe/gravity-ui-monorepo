@@ -1,0 +1,14 @@
+{
+  "name": "@gravity-ui-mono/styles",
+  "version": "1.0.0",
+  "main": "src/index.scss",
+  "author": "vitaly.khe",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "3.2.45"
+  },
+  "scripts": {
+    "build": "node -- ../../scripts/build/build-theme.js"
+  },
+  "gitHead": "520196a4c60d40773f840b5c868b75df8b7a2f04"
+}

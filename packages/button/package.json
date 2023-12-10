@@ -1,0 +1,27 @@
+{
+  "name": "@gravity-ui-mono/button",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "gitlab",
+    "url": "https://gitlab.com/gravity-ui-mono/uikit/",
+    "directory": "-/packages/utils"
+  },
+  "devDependencies": {
+    "@types/node": "16.18.68",
+    "@types/react": "18.2.42",
+    "@types/react-dom": "18.2.17"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "lint:fix": "prettier \"src/**/*.{ts,tsx}\" -w && eslint --ext .ts,tsx ./src/**/* --fix --no-error-on-unmatched-pattern",
+    "lint": "eslint  --ext .ts,tsx ./src/**/*"
+  },
+  "dependencies": {
+    "decimal.js": "10.3.1"
+  }
+}

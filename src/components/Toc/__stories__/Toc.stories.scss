@@ -1,9 +1,0 @@
-@use '../../variables';
-
-$block: '.#{variables.$ns-new}toc-stories';
-
-#{$block} {
-    $class: &;
-
-    max-width: 416px;
-}

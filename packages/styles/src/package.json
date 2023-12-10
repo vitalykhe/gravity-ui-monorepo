@@ -1,0 +1,14 @@
+{
+  "name": "@gravity-ui/styles",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "gitlab",
+    "url": "https://gitlab.com/gravity-ui-mono/uikit/",
+    "directory": "-/packages/utils"
+  },
+  "scripts": {
+    "build": "node -- ../../../scripts/build/build-theme.js"
+  }
+}
